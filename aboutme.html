@@ -4,11 +4,40 @@
     <meta charset="utf-8" />
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       /* Styling Only Related To THIS Page */
+      #basefont {
+        font-family: "Edu NSW ACT Cursive", cursive;
+        font-size: 20px;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+      
+      #ballet {
+            font-family: "Ballet", cursive;
+            font-size: 80px;
+            font-weight: 400;
+            font-style: normal;
+      }
+
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: darkgreen;
         align-items: center;
         justify-content: space-around;
         margin-bottom: 50px;
@@ -19,7 +48,7 @@
         padding: 20px;
       }
       .child-flex p {
-        background-color: pink;
+        background-color: lightyellow;
         padding: 20px;
         margin: 20px;
       }
@@ -30,17 +59,11 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a class="active" href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="pastwork.html">Past Work</a></li>
+     
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/kaischreiberrr/?hl=en"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -49,40 +72,36 @@
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>About Me</h1>
+    <h1 id="ballet">About Me</h1>
     <div class="parent-flex">
       <div class="child-flex">
         <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+          src="https://www.interviewmagazine.com/wp-content/uploads/2025/05/Interview_Issue-561_Summer-2025_Kai-Schreiber_10_web-scaled.jpg"
+          style="width: 210px; margin: -5px"
         />
       </div>
       <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p id="basefont">
+          I am inspired by other young women in fashion who’ve come before me.
+          My favorite models are Tanya Dziahileva, Shalom Harlow, and Lindsay
+          Wixon.
         </p>
       </div>
     </div>
     <div class="parent-flex">
       <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p id="basefont">
+           My favorite fashion is vintage from the 50’s and 60’s. My
+          favorite books are My Year of Rest and Relaxation by Ottessa Moshfegh,
+          and The Virgin Suicides by Jeffrey Eugenides. These books are very
+          meaningful and poetic. My favorite movie is Spring Breakers. I loved
+          the cinematic style of the movie and the way it was filmed.
         </p>
       </div>
       <div class="child-flex">
         <img
-          src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+          src="https://www.interviewmagazine.com/wp-content/uploads/2025/05/Interview_Issue-561_Summer-2025_Kai-Schreiber_11_web-scaled.jpg"
+          style="width: 210px; margin: -5px"
         />
       </div>
     </div>
