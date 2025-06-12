@@ -19,16 +19,42 @@ Select ONE Additional Feature to Add
     <meta charset="utf-8" />
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       /* Styling Only Related To THIS Page */
-      /*~~~~~ Taken From:
-      https://www.w3schools.com/howto/howto_css_parallax.asp*/
+
+      #ballet {
+        font-family: "Ballet", cursive;
+        font-size: 80px;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      #basefont {
+        font-family: "Edu NSW ACT Cursive", cursive;
+        font-size: 20px;
+        font-style: normal;
+      }
+
       .parallax {
-        /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url("https://assets.vogue.com/photos/67d1aa2088d099956c8ed389/master/w_1600%2Cc_limit/GettyImages-2204283821.jpg");
 
         /* Set a specific height */
-        min-height: 500px;
+        min-height: 800px;
 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -36,22 +62,26 @@ Select ONE Additional Feature to Add
         background-repeat: no-repeat;
         background-size: cover;
       }
+
       .textblock {
-        min-height: 500px;
-        background-color: black;
-        color: white;
+        min-height: 200px;
+        background-color: darkred;
+        color: darkblue;
       }
+
       .parent-flex {
         display: flex;
       }
+
       .child-flex {
-        background-color: green;
-        margin: 30px;
-        padding: 10px;
+        background-color: lightpink;
+        margin: 10px;
+        padding: 20px;
         text-align: justify;
         width: 40%;
       }
-      .para-1{
+
+      .para-1 {
         display: flex;
         align-items: center;
       }
@@ -62,17 +92,11 @@ Select ONE Additional Feature to Add
     <ul class="nav">
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="pastwork.html">Past Work</a></li>
+      
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/kaischreiberrr/?hl=en"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -81,30 +105,27 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
+
+    <h1 id="ballet">Kai Schreiber</h1>
+
     <div class="parallax"></div>
 
     <div class="textblock parent-flex">
       <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p id="basefont">
+          My name is Kai Schreiber, I’m 16 years old. I am a model, and have
+          started recently in September 2024. So far, I have shot a Valentino
+          campaign, walked a Valentino fashion show in Paris, shot for Interview
+          Magazine, and shot for Harper‘s Bazaar magazine.
         </p>
       </div>
       <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p id="basefont">
+          Once school ends, I’ll be flying back to Paris. Hopefully, I’ll be
+          walking for Celine, Max Mara, and others. I’ve wanted to model since I
+          was very young, so when I got scouted, it was very exciting for me.
+          This is just the beginning and I cannot wait to see more that my
+          career brings.
         </p>
       </div>
     </div>

@@ -1,9 +1,9 @@
 /* Styling Only Related To ALL Pages */
 
 body {
-  padding-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
+  padding-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +13,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #8B0000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,11 +33,11 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: darkblue;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: green;
 }
 
 h1 {
